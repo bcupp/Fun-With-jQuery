@@ -1,0 +1,15 @@
+.liStyle {
+  height: 50px;
+  width: 200px;
+}
+
+.linkStyle {
+  height: 50px;
+}
+body {
+  padding-top: 70px;
+}
+
+.imgPadding {
+  padding: 10px;
+}

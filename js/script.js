@@ -26,52 +26,45 @@ $('.liTumerick').mouseleave(function() {
 //CLICKED
 
 $('.liHome').click(function() {
-  $(this).css('background-color','pink');
-  $(this).text('CLICKED!');
+  $(this).css('background-color','yellow');
+  $(this).html('<a class="linkStyle" href="#">CLICKED!</a>');
 });
-
 $('.liAbout').click(function() {
-  $(this).css('background-color','pink');
-  $(this).text('CLICKED!');
+  $(this).css('background-color','yellow');
+  $(this).html('<a class="linkStyle" href="#">SQUICKED!</a>');
 });
 $('.liTumerick').click(function() {
-  $(this).css('background-color','pink');
-  $(this).text('CLICKED!');
+  $(this).css('background-color','yellow');
+  $(this).html('<a class="linkStyle" href="#">CLICKED!</a>');
 });
 
 //TOGGLE
 
 $( ".img3" ).click(function() {
   $( ".img2" ).toggle( "slow", function() {
-    // Animation complete.
   });
 });
 $( ".img2" ).click(function() {
   $( ".img3" ).toggle( "slow", function() {
-    // Animation complete.
   });
 });
 
 
 $( ".img1" ).click(function() {
   $( ".img2" ).toggle( "slow", function() {
-    // Animation complete.
   });
 });
 $( ".img1" ).click(function() {
   $( ".img3" ).toggle( "slow", function() {
-    // Animation complete.
   });
 });
 
 $( ".img2" ).dblclick(function() {
   $( ".img1" ).toggle( "slow", function() {
-    // Animation complete.
   });
 });
 $( ".img3" ).dblclick(function() {
   $( ".img1" ).toggle( "slow", function() {
-    // Animation complete.
   });
 });
 
